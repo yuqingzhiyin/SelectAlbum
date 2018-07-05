@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">album</string>
+    <string name="no_image">没有相册图片</string>
+    <string name="selected_ok">确定</string>
+    <string name="help_album_content">缺少读取系统相册的权限，请点击 \"设置\" - \"权限\" 授予应用权限</string>
+    <string name="grant_advice_read_album">建议授予获取相册的权限</string>
+    <string name="grant_advice_open_camera">建议授予使用的权限</string>
+    <string name="help_camera_content">缺少开启的权限，请点击 \"设置\" - \"权限\" 授予应用权限</string>
+    <string name="system_permission">系统权限</string>
+    <string name="quit">退出</string>
+    <string name="settings">设置</string>
+    <string name="grant_album_permission_failure">授权失败，无法读取相册</string>
+    <string name="grant_camera_permission_failure">授权失败，无法打开相机</string>
+    <string name="select_max_num">选择的图片数目大于</string>
+    <string name="selected">选中</string>
+    <string name="image_index">%1$s/%2$s</string>
+    <string name="send">发送</string>
+</resources>
