@@ -18,5 +18,5 @@ ArrayList<String> paths = data.getStringArrayListExtra(AlbumActivity.REQUEST_DAT
 * 'com.github.bumptech.glide:glide:3.7.0'
 * 'com.github.chrisbanes:PhotoView:2.0.0'
 ## 项目截图
-![image.png]## https://github.com/yuqingzhiyin/SelectAlbum/blob/master/截图_01.png)
-![image.png]## https://github.com/yuqingzhiyin/SelectAlbum/blob/master/截图_02.png)
+![image.png](https://github.com/yuqingzhiyin/SelectAlbum/blob/master/截图_01.png)
+![image.png](https://github.com/yuqingzhiyin/SelectAlbum/blob/master/截图_02.png)
