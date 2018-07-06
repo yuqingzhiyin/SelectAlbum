@@ -363,11 +363,16 @@ public class AlbumActivity extends AppCompatActivity implements IAlbumView,Galle
         if (galleries.size() == 0){
             return;
         }
-        //判断以防新插入图片导致相册内容变化
         if (mGalleryId == INIT_DISABLE_ID) {
             Gallery gallery = galleries.get(0);
             mGalleryId = gallery.galleryId;
             updateGallery(gallery);
+            return;
+        }
+        for (Gallery gallery: galleries ) {
+            if (mGalleryId == gallery.galleryId){
+                updateGallery(gallery);
+            }
         }
     }
 
