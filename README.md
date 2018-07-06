@@ -31,9 +31,9 @@ ArrayList<String> paths = data.getStringArrayListExtra(AlbumActivity.REQUEST_DAT
 ```
 2.添加依赖
 ```
-dependencies {
-	  implementation 'com.github.yuqingzhiyin:SelectAlbum:v1.0'
-}
+	dependencies {
+	  	implementation 'com.github.yuqingzhiyin:SelectAlbum:v1.0'
+	}
 ```
 ###maven方式：
 1.添加仓库到build文件
@@ -47,7 +47,7 @@ dependencies {
 ```
 2.添加依赖：
 ```
-<dependency>
+	<dependency>
 	    <groupId>com.github.yuqingzhiyin</groupId>
 	    <artifactId>SelectAlbum</artifactId>
 	    <version>v1.0</version>
