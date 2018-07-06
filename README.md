@@ -18,7 +18,7 @@ ArrayList<String> paths = data.getStringArrayListExtra(AlbumActivity.REQUEST_DAT
 * 'com.github.bumptech.glide:glide:3.7.0'
 * 'com.github.chrisbanes:PhotoView:2.0.0'
 ## 使用方法：
-###gradle方式：
+### gradle方式：
 
 1.在根build.gradle添加仓库
 ```
@@ -35,7 +35,7 @@ ArrayList<String> paths = data.getStringArrayListExtra(AlbumActivity.REQUEST_DAT
 	  	implementation 'com.github.yuqingzhiyin:SelectAlbum:v1.0'
 	}
 ```
-###maven方式：
+### maven方式：
 1.添加仓库到build文件
 ```
 	<repositories>
