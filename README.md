@@ -17,6 +17,42 @@ ArrayList<String> paths = data.getStringArrayListExtra(AlbumActivity.REQUEST_DAT
 本项目主要依赖了：
 * 'com.github.bumptech.glide:glide:3.7.0'
 * 'com.github.chrisbanes:PhotoView:2.0.0'
+## 使用方法：
+### gradle方式：
+
+1.在根build.gradle添加仓库
+```
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+2.添加依赖
+```
+	dependencies {
+	  	implementation 'com.github.yuqingzhiyin:SelectAlbum:v1.0'
+	}
+```
+### maven方式：
+1.添加仓库到build文件
+```
+	<repositories>
+		<repository>
+		    <id>jitpack.io</id>
+		    <url>https://jitpack.io</url>
+		</repository>
+	</repositories>
+```
+2.添加依赖：
+```
+	<dependency>
+	    <groupId>com.github.yuqingzhiyin</groupId>
+	    <artifactId>SelectAlbum</artifactId>
+	    <version>v1.0</version>
+	</dependency>
+```
 ## 项目截图
-![image.png](https://github.com/yuqingzhiyin/SelectAlbum/blob/master/截图_01.png)
-![image.png](https://github.com/yuqingzhiyin/SelectAlbum/blob/master/截图_02.png)
+<img src="https://github.com/yuqingzhiyin/SelectAlbum/blob/master/截图_01.png" width="208" height="370"/>
+<img src="https://github.com/yuqingzhiyin/SelectAlbum/blob/master/截图_02.png" width="208" height="370"/>
